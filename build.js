@@ -14,11 +14,11 @@ const SRC_COMMENT = `<!-- CV Formateur Adultes Polyvalent — V2 — 2026-07-08 
 
 const SRC_TITLE = `<title>Amor El hamrouni — Formateur &amp; enseignant certifié (CAP)</title>`;
 
-const SRC_DESC = `<meta name="description" content="Formateur &amp; enseignant certifié (CAP, Fédération Wallonie-Bruxelles), bachelier en marketing. Pédagogie active, différenciation, évaluation des acquis — pour la promotion sociale, l'insertion socioprofessionnelle et la formation continue. 8 terrains de formation, 7 domaines mobilisables.">`;
+const SRC_DESC = `<meta name="description" content="Formateur &amp; enseignant certifié (Certificat d'Aptitudes Pédagogiques — CAP), bachelier en marketing. Pédagogie active, différenciation, évaluation des acquis — pour la promotion sociale, l'insertion socioprofessionnelle et la formation continue. 8 terrains de formation, 7 domaines mobilisables.">`;
 
 const SRC_OG_TITLE = `<meta property="og:title" content="Amor El hamrouni — Formateur &amp; enseignant certifié (CAP)">`;
 
-const SRC_OG_DESC = `<meta property="og:description" content="Faire apprendre est un métier. Pédagogie active, différenciation, évaluation des acquis — promotion sociale, insertion, formation continue. CAP (FWB) + Bachelier en Marketing.">`;
+const SRC_OG_DESC = `<meta property="og:description" content="Faire apprendre est un métier. Pédagogie active, différenciation, évaluation des acquis — promotion sociale, insertion, formation continue. CAP + Bachelier en Marketing.">`;
 
 const SRC_JOBTITLE = `"jobTitle": "Formateur et enseignant certifié",`;
 
@@ -130,9 +130,9 @@ const VERSIONS = [
     slug: "promotion-sociale",
     comment: `<!-- CV dédié PROMOTION SOCIALE — dérivé du CV formateur général (V2, 2026-07-08) via build.js. Contenu factuel identique. Sans dates (choix délibéré). -->`,
     title: `<title>Amor El hamrouni — Chargé de cours &amp; formateur (CAP) · Promotion sociale</title>`,
-    desc: `<meta name="description" content="Chargé de cours et formateur certifié (CAP, Fédération Wallonie-Bruxelles), bachelier en marketing — pour l'enseignement de promotion sociale : commerce, marketing, gestion, économie, outils numériques. Disponible en horaire décalé.">`,
+    desc: `<meta name="description" content="Chargé de cours et formateur certifié (Certificat d'Aptitudes Pédagogiques — CAP), bachelier en marketing — pour l'enseignement de promotion sociale : commerce, marketing, gestion, économie, outils numériques. Disponible en horaire décalé.">`,
     ogTitle: `<meta property="og:title" content="Amor El hamrouni — Chargé de cours &amp; formateur (CAP) · Promotion sociale">`,
-    ogDesc: `<meta property="og:description" content="Chaque heure de cours doit valoir le déplacement. CAP (FWB) + Bachelier en Marketing — commerce, gestion, économie, outils numériques. Disponible en soirée.">`,
+    ogDesc: `<meta property="og:description" content="Chaque heure de cours doit valoir le déplacement. CAP + Bachelier en Marketing — commerce, gestion, économie, outils numériques. Disponible en soirée.">`,
     jobTitle: `"jobTitle": "Chargé de cours et formateur certifié",`,
     kicker: `<p class="kicker">Curriculum vitæ — Enseignement de promotion sociale</p>`,
     role: `<p class="role">Chargé de cours &amp; formateur certifié — CAP · Bachelier en marketing</p>`,
@@ -149,9 +149,9 @@ const VERSIONS = [
     slug: "insertion",
     comment: `<!-- CV dédié INSERTION / RECONVERSION — dérivé du CV formateur général (V2, 2026-07-08) via build.js. Contenu factuel identique. Sans dates (choix délibéré). -->`,
     title: `<title>Amor El hamrouni — Formateur (CAP) · Insertion &amp; reconversion</title>`,
-    desc: `<meta name="description" content="Formateur certifié (CAP, Fédération Wallonie-Bruxelles), bachelier en marketing — pour l'insertion socioprofessionnelle et la reconversion : remobilisation par le concret, différenciation, compétences orientées emploi.">`,
+    desc: `<meta name="description" content="Formateur certifié (Certificat d'Aptitudes Pédagogiques — CAP), bachelier en marketing — pour l'insertion socioprofessionnelle et la reconversion : remobilisation par le concret, différenciation, compétences orientées emploi.">`,
     ogTitle: `<meta property="og:title" content="Amor El hamrouni — Formateur (CAP) · Insertion &amp; reconversion">`,
-    ogDesc: `<meta property="og:description" content="Remettre en mouvement par le concret, valoriser chaque progrès, viser l'emploi. CAP (FWB) + Bachelier en Marketing.">`,
+    ogDesc: `<meta property="og:description" content="Remettre en mouvement par le concret, valoriser chaque progrès, viser l'emploi. CAP + Bachelier en Marketing.">`,
     jobTitle: `"jobTitle": "Formateur certifié",`,
     kicker: `<p class="kicker">Curriculum vitæ — Insertion socioprofessionnelle &amp; reconversion</p>`,
     role: `<p class="role">Formateur certifié — CAP · Bachelier en marketing</p>`,
@@ -171,9 +171,9 @@ const VERSIONS = [
     slug: "formation-continue",
     comment: `<!-- CV dédié FORMATION CONTINUE / ENTREPRISE — dérivé du CV formateur général (V2, 2026-07-08) via build.js. Contenu factuel identique. Sans dates (choix délibéré). -->`,
     title: `<title>Amor El hamrouni — Formateur (CAP) · Formation continue &amp; entreprise</title>`,
-    desc: `<meta name="description" content="Formateur certifié (CAP, Fédération Wallonie-Bruxelles), bachelier en marketing — modules courts et actionnables pour vos équipes : vente, relation client, communication, gestion. Ancrés dans les situations de travail réelles.">`,
+    desc: `<meta name="description" content="Formateur certifié (Certificat d'Aptitudes Pédagogiques — CAP), bachelier en marketing — modules courts et actionnables pour vos équipes : vente, relation client, communication, gestion. Ancrés dans les situations de travail réelles.">`,
     ogTitle: `<meta property="og:title" content="Amor El hamrouni — Formateur (CAP) · Formation continue &amp; entreprise">`,
-    ogDesc: `<meta property="og:description" content="Des modules courts, actionnables, ancrés dans les situations de travail réelles. CAP (FWB) + Bachelier en Marketing.">`,
+    ogDesc: `<meta property="og:description" content="Des modules courts, actionnables, ancrés dans les situations de travail réelles. CAP + Bachelier en Marketing.">`,
     jobTitle: `"jobTitle": "Formateur certifié",`,
     kicker: `<p class="kicker">Curriculum vitæ — Formation continue &amp; entreprise</p>`,
     role: `<p class="role">Formateur certifié — CAP · Bachelier en marketing</p>`,
@@ -193,9 +193,9 @@ const VERSIONS = [
     slug: "alternance",
     comment: `<!-- CV dédié ALTERNANCE / APPRENTISSAGE (IFAPME, EFP…) — dérivé du CV formateur général (V2, 2026-07-08) via build.js. Contenu factuel identique. Sans dates (choix délibéré). -->`,
     title: `<title>Amor El hamrouni — Formateur (CAP) · Alternance &amp; apprentissage</title>`,
-    desc: `<meta name="description" content="Formateur certifié (CAP, Fédération Wallonie-Bruxelles), bachelier en marketing, expérience directe de l'alternance (CEFA) : cours articulés sur l'entreprise, compétences métier, lien employeurs. Vente, commerce, gestion.">`,
+    desc: `<meta name="description" content="Formateur certifié (Certificat d'Aptitudes Pédagogiques — CAP), bachelier en marketing, expérience directe de l'alternance (CEFA) : cours articulés sur l'entreprise, compétences métier, lien employeurs. Vente, commerce, gestion.">`,
     ogTitle: `<meta property="og:title" content="Amor El hamrouni — Formateur (CAP) · Alternance &amp; apprentissage">`,
-    ogDesc: `<meta property="og:description" content="L'alternance, je la pratique déjà : cours articulés sur l'entreprise, compétences métier, lien employeurs. CAP (FWB) + Bachelier en Marketing.">`,
+    ogDesc: `<meta property="og:description" content="L'alternance, je la pratique déjà : cours articulés sur l'entreprise, compétences métier, lien employeurs. CAP + Bachelier en Marketing.">`,
     jobTitle: `"jobTitle": "Formateur certifié",`,
     kicker: `<p class="kicker">Curriculum vitæ — Alternance &amp; apprentissage</p>`,
     role: `<p class="role">Formateur certifié — CAP · Bachelier en marketing</p>`,
